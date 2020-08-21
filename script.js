@@ -77,12 +77,14 @@ function generatePassword() {
   //using uderscore js library
   while (_.isEqual(user_char, user_char_check) == false) { //check that all user selected types have been included in the generated password
     var password = "";
-
+    user_char_check = []
     for (let i = 0; i < num_char; i++) {
       let index = Math.floor(Math.random() * user_char.length) //check randomly from user selected types
       password = password + generate_random(user_char[index]) //generate random chracter of the type picked in the line above
       user_char_check[index] = user_char[index] //inject the type into a user_check to ensure all user selected types have been included 
     }
+    console.log(user_char)
+    console.log(user_char_check)
   }
 
   return password
