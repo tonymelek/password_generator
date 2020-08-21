@@ -2,8 +2,8 @@
 ## Description
 The application is created to generate a random password that fulfills certain criteria, which is input by user.
 * Password Length _8 to 128 characters_
-<ins>**Character Types to be Included**</ins>
 
+<ins>**Character Types to be Included**</ins>
  * Uppercase Letters ("A","B,"C",..."Z")
  * Lowercase Letters ("a","b","c",.."z")
  * Numerics (0,1,2,...,9)
