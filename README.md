@@ -11,8 +11,7 @@ The application is created to generate a random password that fulfills certain c
 ## How it works?
 1. User is prompted to enter password criteria
 2. User Input is validated
-3. for each character in the password , select randomly a character type of which the user selected and generate a random character to this type
-4. check if al user selected character types have been included in the generated password.
+3. Generate a password that includes all user selected character types
 5. Display password on screen.
 ## Why do we need to have a randomly generated long password?
 For security purposes, you are advised not to use your password in two different places and they also need to be ong and complicated and hard to guess.
